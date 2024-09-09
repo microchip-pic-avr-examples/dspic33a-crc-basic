@@ -4,7 +4,7 @@
   <img alt="Microchip logo, changes to be visible in dark and light mode." src="./images/microchip_logo_black.png">
 </picture>
 
-# dsPIC33AK CRC Basic Code Example
+# dsPIC33A CRC Basic Code Example
 
 The code example uses MPLAB® Code Configurator Melody CRC Driver to configure CRC using the standard CRC-16-CCITT settings and calculate the hardware CRC result. The hardware CRC computation is then compared with a software implementation to verify results. The result is displayed on the terminal.
 
@@ -17,10 +17,11 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 ### Required Software
 
 - MPLAB® X IDE **6.20** or newer (https://www.microchip.com/MPLABXIDE)
-- MPLAB® XC-DSC Compiler **3.10** or a newer compiler (https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc-dsc)
+- MPLAB® XC-DSC Compiler **3.10** or a newer compiler (https://www.microchip.com/xcdsc)
 - MPLAB® Code Configurator (MCC) Plugin **5.5.1** or newer (https://www.microchip.com/mcc)
 - MPLAB® Code Configurator (MCC) Core **5.7.1** or newer (https://www.microchip.com/mcc)
 - MPLAB® Code Configurator (MCC) Melody **2.7.1** or newer (https://www.microchip.com/melody)
+- MCC PIC24-dsPIC Devices **5.12.2** or newer (MCC Content Manager) 
 - CRC Driver **1.0.4** or newer (MCC Content Manager)
 - CRC PLIB **1.0.1** or newer (MCC Content Manager)
 - UART Driver **1.10.2** or newer (MCC Content Manager)
@@ -31,7 +32,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 
 ### Required Hardware
 
-- [dsPIC33AK128MC106 DIM](https://www.microchip.com/en-us/development-tool/EV02G02A)
+- [dsPIC33AK128MC106 DIM](https://www.microchip.com/EV02G02A)
 
 ## Hardware Setup
 
