@@ -52,7 +52,7 @@ static uint16_t calculateHardwareCRC(uint8_t data[], uint8_t dataLength)
     return CRC_CalculationResultGet(false, 0); 
 }
 
-static uint16_t calculateSoftwareCRC(uint8_t data[], uint8_t dataLength)
+static uint16_t calculateSoftwareCRC(uint8_t const data[], uint8_t dataLength)
 {
     uint16_t result = 0xFFFFu;
     uint16_t polynomial = 0x1021u;
