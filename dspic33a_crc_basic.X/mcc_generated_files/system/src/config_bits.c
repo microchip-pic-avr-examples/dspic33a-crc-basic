@@ -70,10 +70,10 @@
 #pragma config FDEVOPTBKUP_ALTI2C1 = OFF    //Alternate I2C1 pins selection bit backup->Primary I2C1 pins are used
 #pragma config FDEVOPTBKUP_ALTI2C2 = OFF    //Alternate I2C2 pins selection bit backup->Primary I2C2 pins are used
 #pragma config FDEVOPTBKUP_BISTDIS = OFF    //Hardware RAM test disable bit backup->RAM test after reset is enabled
-//#pragma config FDEVOPTBKUP_SPI2PIN = OFF    //SPI2 peripheral pin selection disable bit backup->SPI2 pins are selected by peripheral pin selection feature
+#pragma config FDEVOPTBKUP_SPI2PIN = OFF    //SPI2 peripheral pin selection disable bit backup->SPI2 pins are selected by peripheral pin selection feature
 
 // FWDTBKUP
-//#pragma config FWDTBKUP_WINDIS = ON    //Watchdog Timer Window Enable bit->Watchdog Timer operates in Non-Window mode
+#pragma config FWDTBKUP_WINDIS = ON    //Watchdog Timer Window Enable bit->Watchdog Timer operates in Non-Window mode
 #pragma config FWDTBKUP_SWDTMPS = PS2147483648    //Sleep Mode Watchdog Timer Post Scaler select bits backup->1:2147483648
 #pragma config FWDTBKUP_RCLKSEL = BPRC256    //Watchdog Timer Clock select bits backup->WDT Run Mode uses BFRC:256
 #pragma config FWDTBKUP_RWDTPS = PS2147483648    //Run Mode Watchdog Timer Post Scaler select bits backup->1:2147483648

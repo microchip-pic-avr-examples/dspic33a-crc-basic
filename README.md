@@ -21,7 +21,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 - MPLAB® Code Configurator (MCC) Plugin **5.5.1** or newer (https://www.microchip.com/mcc)
 - MPLAB® Code Configurator (MCC) Core **5.7.1** or newer (https://www.microchip.com/mcc)
 - MPLAB® Code Configurator (MCC) Melody **2.7.1** or newer (https://www.microchip.com/melody)
-- MCC PIC24-dsPIC Devices **5.12.2** or newer (MCC Content Manager) 
+- MCC PIC24/dsPIC Devices **5.12.2** or newer (MCC Content Manager) 
 - CRC Driver **1.0.4** or newer (MCC Content Manager)
 - CRC PLIB **1.0.1** or newer (MCC Content Manager)
 - UART Driver **1.10.2** or newer (MCC Content Manager)
@@ -32,6 +32,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 
 ### Required Hardware
 
+- [dsPIC33A Curiosity Development Board](https://www.microchip.com/ev74h48a)
 - [dsPIC33AK128MC106 DIM](https://www.microchip.com/EV02G02A)
 
 ## Hardware Setup
@@ -76,7 +77,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
     ![Tera Term Serial Port Settings](images/tera_term_serial_port_menu.JPG)
 
 ### MPLAB® X IDE Setup
-1. Launch MPLAB® X IDE and load the dspic33ck-curiosity-crc-basic project.
+1. Launch MPLAB® X IDE and load the dspic33a-crc-basic project.
 2. Build and program the device. 
 
 ## CRC Settings
