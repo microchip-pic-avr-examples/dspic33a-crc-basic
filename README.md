@@ -10,7 +10,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 
 ## Related Documentation
 
-[MCC Melody CRC API Reference](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CRC_16BIT_MELODY_DRIVER&version=latest&redirect=true)
+[MCC Melody CRC API Reference](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CRC_33A_MELODY_DRIVER&version=latest&redirect=true)
 
 ## Software Used 
 
