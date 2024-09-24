@@ -46,7 +46,7 @@ Makefile-genesis.properties
 
 # Misc
 .svn
-*.bak
+*.bak[0-9]
 *.doc
 *.docx
 
