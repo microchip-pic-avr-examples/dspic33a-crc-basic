@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: dspic33a_crc_basic
-creation_date: 2024-09-23T09:51:47.161-07:00[America/Phoenix]
+creation_date: 2024-09-24T13:21:57.052-07:00[America/Phoenix]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
@@ -15,7 +15,7 @@ is_mcc_offline: false
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.7.1}
-packs: {name: dsPIC33AK-MC_DFP, version: 1.1.43}
+packs: {name: dsPIC33AK-MC_DFP, version: 1.0.33}
 modules:
 - {name: '@mchp-mcc/crc-16bit-driver', type: MELODY, version: 1.0.4}
 - {name: '@mchp-mcc/dmt-16bit-driver', type: MELODY, version: 1.0.7}
