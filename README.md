@@ -32,7 +32,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 
 ### Required Hardware
 
-- PKOB (PICkit On-Board) or [MPLAB® PICkit™ 5 In-Circuit Debugger](ttps://www.microchip.com/PICkit5)
+- PKOB (PICkit On-Board) or [MPLAB® PICkit™ 5 In-Circuit Debugger](https://www.microchip.com/PICkit5)
 - [dsPIC33A Curiosity Development Board](https://www.microchip.com/ev74h48a)
 - [dsPIC33AK128MC106 DIM](https://www.microchip.com/EV02G02A)
 
