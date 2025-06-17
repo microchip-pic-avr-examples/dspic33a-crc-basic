@@ -7,13 +7,13 @@
  * 
  * @brief     This is the generated driver types header file for the CLOCK driver
  *
- * @version   PLIB Version 1.1.0
+ * @skipline @version   PLIB Version 1.1.2
  *
  * @skipline  Device : dsPIC33AK128MC106
 */
 
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+© [2025] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -43,9 +43,9 @@
 */
 enum CLOCK_GENERATOR
 {
-    CLOCK_GENERATOR_1,    /**< Clock Generator 1 */
-    CLOCK_GENERATOR_2,    /**< Clock Generator 2 */
-    CLOCK_GENERATOR_3,    /**< Clock Generator 3 */
+    CLOCK_GENERATOR_1 = 1,    /**< Clock Generator 1 */
+    CLOCK_GENERATOR_2 = 2,    /**< Clock Generator 2 */
+    CLOCK_GENERATOR_3 = 3,    /**< Clock Generator 3 */
     
     CLOCK_SYSTEM = 1,    /**< Clock for System */
     CLOCK_FRC = 2,    /**< Clock for FRC */
