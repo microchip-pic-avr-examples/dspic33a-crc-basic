@@ -143,3 +143,19 @@ The result should be 0xE092, matching the calculation performed by the MCC Melod
 Once the project is built and the device is programmed, the terminal program will print the results of both the hardware and software calculations.
 
 ![Results printed on Tera Term](images/tera_term_output.JPG)
+
+# Porting the Sinewave Demo to the dsPIC33AK512MPS512 family
+1. Open the dspic33a_crc_basic.X project in the MPLAB® X IDE.
+
+2. Click on the "Project Properties" button in the Dashboard in the lower left. 
+3. In the "device" dropdown, select dsPIC33AK512MPS512.
+
+4. Choose the latest DFP and XC-DSC compiler versions in the same configuration menu, Select "Apply" and "OK" with these settings.
+
+5. Open Melody by selecting the MCC button.
+
+6. Select new pins for UART (RD10 for RX, RH0 for TX). Note: Pin selection may be updated automatically. 
+
+7. Select the Generate Button under project resources.
+
+**Note: DO NOT overwrite the contents of the main.c.**
