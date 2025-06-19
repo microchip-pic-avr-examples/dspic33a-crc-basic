@@ -48,9 +48,7 @@ The code example uses MPLAB® Code Configurator Melody CRC Driver to configure C
 
 ## Software Setup
 
-### Peripheral Configurations
-
-#### CRC Settings
+### CRC Settings
 
 The following settings are used in the calculation of CRC values:
 
