@@ -4,7 +4,7 @@
   <img alt="Microchip logo, changes to be visible in dark and light mode." src="./images/microchip_logo_black.png">
 </picture>
 
-# CRC Basic Code Example
+# dsPIC33A CRC Basic Code Example
 
 # Summary
 
