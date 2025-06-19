@@ -6,7 +6,7 @@
 
 ### Features Added\Updated
 
-- The MPLAB® X IDE project was updated to use the most recent DFP (1.3.130)
+- The MPLAB® X IDE project was updated to use the most recent DFP (1.2.125)
 - The following Melody contents were updated:
   - Clock v1.1.2
   - Configuration Bits v1.1.0
