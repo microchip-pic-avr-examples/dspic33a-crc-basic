@@ -82,7 +82,7 @@ Online Calculator:
 
 **Note**: Number 8, Seed Shift Direction, is assumed to be MSB in this online calculator.
 
-MCC Melody: 
+#### MCC Melody 
 
 ![Labeled MCC Melody UI](images/demo_CRC_settings.JPG)
 
