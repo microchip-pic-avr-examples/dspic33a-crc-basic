@@ -1,3 +1,20 @@
+# dspic33a-crc-basic v1.0.1
+
+### Release Highlights
+
+- Updated Melody content and Device DFP to latest versions
+
+### Features Added\Updated
+
+- The MPLAB® X IDE project was updated to use the most recent DFP (1.2.125)
+- The following Melody contents were updated:
+  - Clock v1.1.2
+  - Configuration Bits v1.1.0
+  - Interrupt v1.1.0
+  - UART PLIB v1.0.2
+  - PIC24/dsPIC devices version v5.13.1
+- README updated to include porting instructions
+
 # dspic33a-crc-basic v1.0.0
 
 ### Release Highlights
